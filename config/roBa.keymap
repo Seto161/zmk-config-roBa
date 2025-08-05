@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E    &kp R           &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &lt 3 D  &kp F           &kp G  &kp LS(LG(NUMBER_4))            &kp QUESTION            &kp H        &kp J  &kp K      &kp L    &kp BACKSPACE
-&kp Z             &kp X         &kp C    &kp V           &kp B  &lt_to_layer_0 6 SEMICOLON      &lt_to_layer_0 4 SLASH  &kp N        &kp M  &kp COMMA  &kp DOT  &kp ENTER
-&kp LEFT_CONTROL  &kp LEFT_ALT  &kp TAB  &kp LEFT_SHIFT  &mo 1  &kp LEFT_COMMAND                &kp RIGHT_COMMAND       &lt 2 SPACE                             &lt 5 ESCAPE
+&kp Q             &kp W         &kp E    &kp R  &kp T                                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &lt 3 D  &kp F  &kp G           &kp LS(LG(NUMBER_4))            &kp QUESTION            &kp H        &kp J  &kp K      &kp L    &kp BACKSPACE
+&kp Z             &kp X         &kp C    &kp V  &kp B           &lt_to_layer_0 6 SEMICOLON      &lt_to_layer_0 4 SLASH  &kp N        &kp M  &kp COMMA  &kp DOT  &kp ENTER
+&kp LEFT_CONTROL  &kp LEFT_ALT  &kp TAB  &mo 1  &kp LEFT_SHIFT  &kp LEFT_COMMAND                &kp RIGHT_COMMAND       &lt 2 SPACE                             &lt 5 ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -110,7 +110,7 @@
         ARROW {
             bindings = <
 &trans  &kp LCTRL         &trans  &kp LA(LEFT)  &kp LA(RIGHT)                        &kp HOME      &kp LC(A)     &kp UP      &kp LC(E)      &kp END
-&trans  &kp LEFT_SHIFT    &trans  &mkp MB1      &mkp MB2       &mkp MB3      &trans  &kp LEFT      &kp LEFT      &kp DOWN    &kp RIGHT      &trans
+&trans  &kp LEFT_SHIFT    &trans  &mkp MB1      &mkp MB2       &mkp MB3      &trans  &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT      &trans
 &trans  &kp LEFT_COMMAND  &trans  &mkp MB4      &mkp MB5       &mkp MB3      &trans  &kp LC(LEFT)  &kp LC(LEFT)  &kp LC(UP)  &kp LC(RIGHT)  &trans
 &trans  &trans            &trans  &trans        &trans         &trans        &trans  &trans                                                 &trans
             >;
