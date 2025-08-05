@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp W         &kp E    &kp R      &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A         &kp S         &lt 3 D  &kp F      &kp G  &kp LS(LG(NUMBER_4))            &kp QUESTION            &kp H        &kp J  &kp K      &kp L    &kp ENTER
-&kp Z         &kp X         &kp C    &kp V      &kp B  &lt_to_layer_0 6 SEMICOLON      &lt_to_layer_0 4 SLASH  &kp N        &kp M  &kp COMMA  &kp DOT  &kp BACKSPACE
-&kp LEFT_ALT  &kp LEFT_WIN  &kp TAB  &kp LCTRL  &mo 1  &kp LEFT_SHIFT                  &kp RIGHT_COMMAND       &lt 2 SPACE                             &lt 5 ESCAPE
+&kp Q             &kp W         &kp E    &kp R           &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &lt 3 D  &kp F           &kp G  &kp LS(LG(NUMBER_4))            &kp QUESTION            &kp H        &kp J  &kp K      &kp L    &kp BACKSPACE
+&kp Z             &kp X         &kp C    &kp V           &kp B  &lt_to_layer_0 6 SEMICOLON      &lt_to_layer_0 4 SLASH  &kp N        &kp M  &kp COMMA  &kp DOT  &kp ENTER
+&kp LEFT_CONTROL  &kp LEFT_ALT  &kp TAB  &kp LEFT_SHIFT  &mo 1  &kp LEFT_COMMAND                &kp RIGHT_COMMAND       &lt 2 SPACE                             &lt 5 ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR         &kp PERCENT                               &kp PLUS        &kp PIPE              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
-&kp SEMICOLON    &kp COLON      &kp SQT       &kp DOUBLE_QUOTES  &kp GRAVE    &trans         &kp ASTERISK  &kp MINUS       &kp SLASH             &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp TILDE          &kp LG(TAB)  &kp COLON      &kp SLASH     &kp UNDERSCORE  &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&trans           &trans         &trans        &trans             &trans       &trans         &trans        &trans                                                                             &trans
+&kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR         &kp PERCENT                               &kp PLUS        &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
+&kp SEMICOLON    &kp COLON      &kp SQT       &kp DOUBLE_QUOTES  &kp GRAVE    &trans         &kp ASTERISK  &kp MINUS       &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp TILDE          &kp LG(TAB)  &kp COLON      &kp SLASH     &kp UNDERSCORE  &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&trans           &trans         &trans        &trans             &trans       &trans         &trans        &trans                                                                      &trans
             >;
         };
 
@@ -111,7 +111,7 @@
             bindings = <
 &trans  &kp LCTRL         &trans  &kp LA(LEFT)  &kp LA(RIGHT)                        &kp HOME      &kp LC(A)     &kp UP      &kp LC(E)      &kp END
 &trans  &kp LEFT_SHIFT    &trans  &mkp MB1      &mkp MB2       &mkp MB3      &trans  &kp LEFT      &kp LEFT      &kp DOWN    &kp RIGHT      &trans
-&trans  &kp LEFT_COMMAND  &trans  &mkp MB4      &mkp MB5       &mkp MB3      &trans  &kp LC(LEFT)  &kp LC(LEFT)  &kp LA(UP)  &kp LC(RIGHT)  &trans
+&trans  &kp LEFT_COMMAND  &trans  &mkp MB4      &mkp MB5       &mkp MB3      &trans  &kp LC(LEFT)  &kp LC(LEFT)  &kp LC(UP)  &kp LC(RIGHT)  &trans
 &trans  &trans            &trans  &trans        &trans         &trans        &trans  &trans                                                 &trans
             >;
 
